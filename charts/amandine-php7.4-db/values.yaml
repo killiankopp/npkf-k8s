@@ -1,0 +1,11 @@
+NameSpace: karned
+AppName: npkf-db
+NodePort: 32120
+
+MariadbReplicas: 1
+MariadbImageTag: latest
+MariadbDiskSize: 5Gi
+MariadbServerId: 2
+MariadbDbName: npk_formation
+MariadbDbUser: npkf
+MariadbDbPort: 3306
